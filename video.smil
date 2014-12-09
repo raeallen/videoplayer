@@ -1,0 +1,10 @@
+<smil>
+<head>
+<meta base="rtmp://cp81899.live.edgefcs.net/live/" />
+</head>
+<body>
+<switch id="ABCLocalLiveStream">
+<video src="tv-med@28766" system-bitrate="464000" />
+</switch>
+</body>
+</smil>

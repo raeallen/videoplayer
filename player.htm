@@ -1,0 +1,22 @@
+		<script src="jwplayer/v6-9/jwplayer.js"></script>
+		<script>
+		window.onload = function(){
+			jwplayer.key="H7Ghj48n4vU5lmh6uSEQhsXtGwdyR4rAY/qj0g==";
+			jwplayer("player").setup({
+				image: "http://www.abc.net.au/local/players/jwplayer/702_Sydney_Box_RGB.png",
+				sources: [
+					{file: 'video.smil'},
+					{file: 'http://iphonestreaming.abc.net.au/tv/tv.m3u8'}
+				],
+				title:"NSW Premier's Spelling Bee",
+				aspectratio:"16:9",
+				width:"100%",
+				primary: "flash",
+				analytics: {enabled:false},
+				androidhls: true
+			});
+		}
+		</script>
+	
+		<div id="player"></div>
+
